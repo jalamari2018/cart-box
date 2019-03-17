@@ -1,0 +1,267 @@
+/*
+ * CART-BOXX.CSS : ADMIN PAGE CSS
+ * Visit https://code-boxx.com/cart-boxx/ for more
+ */
+
+/* [UNIVERSAL] */
+body {
+	font-family: Geneva, sans-serif;
+	font-size: 16px;
+}
+
+/* [NOW LOADING] */
+#page-loader, #page-loader-spin {
+	position: fixed;
+	display: block;
+	transition: all 0.3s linear;
+}
+
+#page-loader {
+	top:0; left:0;
+	height: 100%; width: 100%;
+	visibility: hidden;
+	z-index: 9999;
+	background:none;
+	opacity: 0.8;
+}
+
+#page-loader.active {
+	visibility: visible;
+	background: #000;
+}
+
+#page-loader-spin{
+	top: 50%; left: 50%;
+	margin: -50px 0 0 -50px;
+}
+
+/* [MODAL] */
+#modal-header, #modal-header .close{
+	color:#fff;
+	opacity:1;
+}
+
+#modal-header{
+	background:#4385f5;
+}
+
+#modal-header.warn{
+	background:#ffbb34;
+}
+
+#modal-header.error{
+	background:#ff3648;
+}
+
+/* [PAGE WRAP] */
+#page-wrapper {
+	display: flex;
+	align-items: stretch;
+}
+
+/* [SIDE BAR] */
+#page-sidebar {
+	min-width: 250px;
+	max-width: 250px;
+	background:#353535;
+	color: #fff;
+	transition: all 0.3s;
+}
+
+#sidebar-user{
+	padding:15px;
+}
+
+#sidebar-user img{
+	width: 50px;
+	height: 50px;
+	margin-bottom:10px;
+	border-radius: 50%;
+}
+
+#sidebar-site-name, #sidebar-user-name, #sidebar-user-email{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
+	font-size:0.8em;
+}
+
+#sidebar-user-email, #sidebar-user-name{
+	color:#aaa;
+}
+
+.page-sidebar-ico{
+	color:#dc3545;
+	margin-right:10px;
+}
+
+#page-sidebar.active {
+    margin-left: -250px;
+}
+
+/*#page-sidebar ul.components {}*/
+
+#page-sidebar a:first-child{
+	border-top:1px solid #2d2929;
+}
+#page-sidebar a{
+	border-bottom:1px solid #2d2929;
+}
+
+#page-sidebar a, #page-sidebar a:hover, #page-sidebar a:focus {
+    color: inherit;
+    text-decoration: none;
+}
+
+#page-sidebar ul li a {
+    padding: 15px;
+    display: block;
+}
+
+#page-sidebar ul li a:hover {
+    background: #272727;
+}
+
+/*#page-sidebar ul li.active > a, a[aria-expanded="true"] {}*/
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+	content: '+';
+    display: block;
+    position: absolute;
+    right: 20px;
+}
+
+a[aria-expanded="true"]::before {
+	content: '-';
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #2d2c2c;
+	color:#aaa !important;
+}
+
+@media (max-width: 768px) {
+    #page-sidebar {
+		margin-left: -250px;
+    }
+    #page-sidebar.active {
+        margin-left: 0;
+    }
+}
+
+/* [CONTENTS] */
+#page-content {
+	width:100%;
+    min-height: 100vh;
+	background: #f7f9fa;
+}
+
+#page-A, #page-B, #page-C, #page-D, #page-E{
+	padding:20px;
+}
+
+
+#page-B, #page-C, #page-D, #page-E{
+	display:none;
+}
+
+/* [NAV BAR] */
+#page-nav{
+	background: #474747;
+	color:#fff;
+}
+
+#page-nav u{
+	text-decoration: none;
+	margin: 0 20px;
+	cursor: pointer;
+}
+
+/* [THE TINY PAGE DETAILS - LISTS] */
+.subnav{
+	margin-bottom:55px;
+}
+
+.subnav .input-group-text{
+	background:#007bff;
+	color:#fff;
+	cursor:pointer;
+}
+
+.sublist{
+	background:#fff;
+}
+
+.nolist{
+	padding:10px;
+}
+
+.sublist .table{
+	margin-bottom:0;
+	border-bottom:1px solid #dee2e6;
+}
+
+img.nail, div.nail{
+	object-fit: cover;
+	float:left;
+	width:50px;
+	height:50px;
+	margin-right:10px;
+	background:#ddd;
+}
+
+div.dataA, div.dataB{
+	max-width:300px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+div.dataA{
+	color:#333;
+}
+
+div.dataB{
+	font-size:14px;
+	color:#777;
+}
+
+.sublist-pg{
+	padding:25px 20px 5px 20px;
+}
+
+/* [THE TINY PAGE DETAILS - ADD & EDIT] */
+.form-wrap {
+	background:#fff;
+	border:1px solid #dee2e6;
+	border-radius:5px;
+}
+
+.form-limit{
+	max-width:500px;
+}
+
+.form-wrap-head {
+	border-radius:5px 5px 0 0;
+	background:#474747;
+	color:#fff;
+	padding:10px;
+	font-size:18px;
+}
+
+.form-wrap-body{
+	padding:25px;
+}
+
+.form-wrap-foot{
+	padding:10px 20px;
+	background:#e7eef1;
+	border-radius:0 0 5px 5px;
+}

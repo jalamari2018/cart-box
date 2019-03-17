@@ -1,0 +1,233 @@
+/* 11 of 98 CSS properties converted by rtl.daskhat.ir 
+ These properties should be override originals. 
+ just load rtl css file after original css file.*/ 
+
+/* body {direction:rtl;} */
+
+body{
+    font-family: Geneva, sans-serif;
+    font-size: 16px;
+}
+
+#page-loader, #page-loader-spin{
+    position: fixed;
+    display: block;
+    transition: all 0.3s linear;
+}
+
+#page-loader{
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    z-index: 9999;
+    background: none;
+    opacity: 0.8;
+}
+
+#page-loader.active{
+    visibility: visible;
+    background: #000;
+}
+
+#page-loader-spin{
+    top: 50%;
+    right: 50%;
+    margin: -50px -50px 0 0 ;
+}
+
+#modal-header, #modal-header .close{
+    color: #fff;
+    opacity: 1;
+}
+
+#modal-header{
+    background: #4385f5;
+}
+
+#modal-header.warn{
+    background: #ffbb34;
+}
+
+#modal-header.error{
+    background: #ff3648;
+}
+
+#page-head{
+    background: #333;
+}
+
+#page-head img{
+    height: 50px;
+    width: auto;
+}
+
+#page-nav, #page-nav a{
+    color: #fff;
+}
+
+.page-nav-item{
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#page-user{
+    right: auto;
+    left: -55px;
+    background: #1e1e1e;
+    color: #fff;
+}
+
+#page-user img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+#page-user-name, #page-user-email{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    font-size: 0.8em;
+}
+
+#page-user-email{
+    color: #aaa;
+}
+
+#page-user .btn{
+    width: 200px;
+    margin: 5px 10px;
+}
+
+#page-main{
+    : ;
+}
+
+#page-B, #page-C, #page-D, #page-E{
+    display: none;
+}
+
+#page-foot{
+    border-top: 1px solid #eee;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#page-foot div{
+    font-size: 0.9em;
+    color: #777;
+}
+
+#page-foot small, #page-foot a{
+    color: #aaa;
+}
+
+div.spacer{
+    height: 20px;
+    width: 100%;
+}
+
+.form-wrap{
+    background: #f2f2f2;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.form-limit{
+    max-width: 500px;
+}
+
+.form-wrap-head{
+    border-radius: 5px 5px 0 0;
+    background: #474747;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.form-wrap-body{
+    padding: 25px;
+}
+
+.form-wrap-foot{
+    padding: 10px 20px;
+    background: #e8e8ed;
+    border-radius: 0 0 5px 5px;
+}
+
+.lost{
+    max-width: 600px;
+    text-align: center;
+    margin: 50px auto 0 auto ;
+}
+
+.lost img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.lost p{
+    font-size: 14px;
+}
+
+.cat-img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    background: #ddd;
+}
+
+.cat-img:hover{
+    cursor: pointer;
+}
+
+.cat-name{
+    color: #333;
+}
+
+.cat-desc{
+    color: #777;
+    font-size: 14px;
+}
+
+.cart-img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    float: right;
+    background: #ddd;
+    margin-left: 10px;
+}
+
+.cart-img:hover{
+    cursor: pointer;
+}
+
+.cart-name{
+    : ;
+}
+
+.cart-price{
+    font-size: 15px;
+    color: #aaa;
+}
+
+.text-right{
+    float: left;
+}
+
+.cart-pdt-qty{
+    max-width: 60px;
+}
+
+.cart-total{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
