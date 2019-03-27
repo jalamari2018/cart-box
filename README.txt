@@ -12,7 +12,7 @@ core/config.php
 
 
 للمزيد من الشرح الرجاء الاطلاع على الفيديو على قناتنا في اليوتيوب
-https://www.youtube.com/channel/UCDK5rTgvqIPZ8KMxVsVulxw
+https://youtu.be/Vjt9RAAs4bc
 
 رابط صفحة الادارة
  http://اسم موقعك/jalamari
