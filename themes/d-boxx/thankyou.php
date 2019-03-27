@@ -15,9 +15,9 @@ require T_LIB . "site_top.php"; ?>
 	<div class="alert alert-success" role="alert">
 	الرجاء التواصل معنا عبر المحاثة الفوريه أسفل الصفحة أو الإرسال 
 
-			 <a href="https://wa.me/+966553495946" class="btn btn-outline-success btn-block">   عبرالوتس اب الرقم الأول
+			 <a href="https://wa.me/+966XXXXXX" class="btn btn-outline-success btn-block">   عبرالوتس اب الرقم الأول
 
-         <a href="https://wa.me/+966508739149" class="btn btn-outline-success btn-block">   عبرالوتس اب الرقم الثاني 
+         <a href="https://wa.me/+966XXXXXX" class="btn btn-outline-success btn-block">   عبرالوتس اب الرقم الثاني 
 
 </a>
      </div>

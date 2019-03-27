@@ -13,7 +13,7 @@ require T_LIB."site_top.php"; ?>
 <div class="container" dir="rtl"><div class="row"><div class="col-md-8 offset-md-2">
 <form onsubmit="return user.save();" id="user_form" class="form-wrap">
 	<div class="form-wrap-head">
-		<?=$_PAGE['edit']?"My Account":"تسجيل حساب جديد"?>
+		<?=$_PAGE['edit']?" معلومات حسابي":"تسجيل حساب جديد"?>
 	</div>
 	<div class="form-wrap-body">
 		<input type="hidden" class="form-control" id="user_id" value="<?=$_SESSION['user']['user_id']?>">

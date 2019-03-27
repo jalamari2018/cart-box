@@ -14,6 +14,7 @@
 		<link rel="icon" href="<?=T_ASSET?>favicon.ico">
 		<title><?=$_PAGE['title']?></title>
 		<link href="https://cdn.rtlcss.com/bootstrap/v4.1.3/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
 		<link href="<?=T_ASSET?>d-boxx.css" rel="stylesheet">
 	</head>
 
@@ -32,6 +33,9 @@
 			<div id="modal-body" class="modal-body"></div>
 			<div id="modal-footer" class="modal-footer"></div>
 		</div></div></div>
+
+
+		
 
 		<!-- [HEADER] -->
 		<nav id="page-head" class="navbar" dir="rtl">
@@ -66,13 +70,13 @@
 							<div style="padding:10px 10px 0 10px">
 								<div class="form-group">
 									<div class="input-group mb-3">
-										<input type="text" class="form-control form-control-sm" id="signin-email" placeholder="Email" required>
+										<input type="text" class="form-control form-control-sm" id="signin-email" placeholder="البريد " required>
 										<div class="input-group-append">
 											<span class="input-group-text"><i class="fa fa-at"></i></span>
 										</div>
 									</div>
 									<div class="input-group mb-3">
-										<input type="password" class="form-control form-control-sm" id="signin-password" placeholder="Password" required>
+										<input type="password" class="form-control form-control-sm" id="signin-password" placeholder="كلمة المرور" required>
 										<div class="input-group-append">
 											<span class="input-group-text"><i class="fa fa-key"></i></span>
 										</div>

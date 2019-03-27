@@ -5,7 +5,7 @@
 /* body {direction:rtl;} */
 
 body{
-    font-family: Geneva, sans-serif;
+    font-family: Cairo, sans-serif;
     font-size: 16px;
 }
 
@@ -55,7 +55,7 @@ body{
 }
 
 #page-head{
-    background: #333;
+    background: #6495ED;
 }
 
 #page-head img{

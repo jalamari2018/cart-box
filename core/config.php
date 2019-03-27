@@ -9,14 +9,14 @@ error_reporting(E_ALL & ~E_NOTICE);
 
 // DATABASE SETTINGS
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'alamarit_cartbox');
+define('DB_NAME', 'mynewdatabase');
 define('DB_CHARSET', 'utf8');
-define('DB_USER', 'alamarit_root');
-define('DB_PASSWORD', '125600bczz');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '1234');
 
 // CRYPTO
 define('SECRET_KEY', '2m*SMz5*s#`W');
 
 // BASE URL
-define('URL_ROOT', 'http://alamariteaching.com/cart-boxx/');
+define('URL_ROOT', 'http://localhost/cart-boxx/');
 ?>

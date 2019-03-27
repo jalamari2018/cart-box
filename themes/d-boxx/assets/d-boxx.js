@@ -424,3 +424,66 @@ var cart = {
 $(document).ready(function(){
 	cart.count();
 });
+
+
+function showMorePics(el){
+	var source = el.src;
+	var image1= document.getElementById("productImage1");
+	var image2= document.getElementById("productImage2");
+	var image3= document.getElementById("productImage3");
+
+	image1.src = source;
+	var sourceClean = source.replace(/\.[^/.]+$/, "");
+
+	console.log();
+
+
+  url3 = sourceClean+"1.jpg";
+
+ 
+	
+
+
+var xhr = new XMLHttpRequest();
+	    xhr.open("GET",url3,true);
+	    xhr.onreadystatechange = function () {
+
+	    	if (xhr.readyState == 4 && xhr.status== 200) {
+
+	    		image2.src = url3;
+
+	    	}else{
+
+	    		image2.src= source; // the link to the main image
+
+	    	}
+	    }
+ xhr.send();
+
+
+url2 = sourceClean+"2.jpg";
+ var xhr1 = new XMLHttpRequest();
+ 	    xhr1.open("GET",url2,true);
+ 	    xhr1.onreadystatechange = function () {
+
+ 	    	if (xhr.readyState == 4 && xhr.status== 200) {
+
+ 	    		image3.src = url2;
+
+ 	    	}else{
+
+ 	    		image3.src= source; // the link to the main image
+
+ 	    	}
+ 	    	$('#jebreelModal').modal('show');
+ 	    }
+  xhr1.send();
+
+
+
+
+	
+	
+}
+
+
